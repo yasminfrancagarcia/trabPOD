@@ -22,6 +22,9 @@ void bucket_sort(int v[], int tam, SortFunc algoritmo) {
     int i, j, idx, k, maior;
     int num_bucket;
     bucket* b;
+    /*Vetor auxiliar que serve como destino do bucket*/
+    int *aux;
+    aux = (int *) malloc(sizeof(int) * tam);
 
     if (tam <= 0) return;
 
@@ -67,12 +70,13 @@ void bucket_sort(int v[], int tam, SortFunc algoritmo) {
     k = 0;
     for (i = 0; i < num_bucket; i++) {
         for (j = 0; j < b[i].topo; j++) {
-            v[k++] = b[i].balde[j];
+            aux[k++] = b[i].balde[j];
         }
         free(b[i].balde);
     }
 
     free(b);
+    free(aux);
 }
 
 double difTempo(struct timespec t0, struct timespec t1){
