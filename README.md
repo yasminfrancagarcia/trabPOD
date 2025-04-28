@@ -14,8 +14,9 @@ Para usar compile utilizando linux com o seguinte comando
 gcc main.c insertion.c heap.c merge.c quick.c -ansi -o main
 
 Para executar:
-cem mil: ./main 100000 < arqRandom/RandCemMil.txt
+- Entre no diretório onde se encontra os arquivos
+cem mil: ./main 100000 < arqRandCem.txt
 
-um milhão: ./main 1000000 < arqRandom/RandMilhao.txt
+um milhão: ./main 1000000 < arqRandMilhaotxt
 
-cem milhões: ./main 100000000 < arqRandom/RandCemMilhoes.txt
+cem milhões: ./main 100000000 < arqRandCemMilhoes.txt
