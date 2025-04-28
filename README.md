@@ -15,8 +15,6 @@ gcc main.c insertion.c heap.c merge.c quick.c -ansi -o main
 
 Para executar:
 - Entre no diretório onde se encontra os arquivos
-cem mil: ./main 100000 < arqRandCem.txt
 
-um milhão: ./main 1000000 < arqRandMilhaotxt
-
-cem milhões: ./main 100000000 < arqRandCemMilhoes.txt
+Para executar:
+./main * quantidade de numeros a ordenar* < * nome_arquivo_com_numeros.txt*
