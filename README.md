@@ -17,3 +17,7 @@ Para executar:
 - Entre no diretório onde se encontra os arquivos
 - No terminal:
 ./main * quantidade de numeros a ordenar* < * nome_arquivo_com_numeros.txt*
+
+ou 
+./main * quantidade de numeros a ordenar* < * nome_arquivo_com_numeros.txt* -lm 
+(-lm para compilar a biblioteca math.h)
