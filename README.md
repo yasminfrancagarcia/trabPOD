@@ -15,6 +15,5 @@ gcc main.c insertion.c heap.c merge.c quick.c -ansi -o main
 
 Para executar:
 - Entre no diretório onde se encontra os arquivos
-
-Para executar:
+- No terminal:
 ./main * quantidade de numeros a ordenar* < * nome_arquivo_com_numeros.txt*
